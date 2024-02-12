@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 10px;
+    font-family: "Open Sans", sans-serif;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+.blog-heading h1{
+    font-size: 2rem;
+    justify-content: center;
+    color: rgb(25, 25, 74);
+}
+
+
+.blog-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/moroccan-flower-dark.png);
+    background-repeat: round;
+       
+}

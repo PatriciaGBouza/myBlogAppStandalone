@@ -1,0 +1,25 @@
+<section id="blog-entries">
+        <!--========Display data======-->
+        <div class="blog-entries" [innerHTML]="showData()">
+        </div>
+       
+ 
+
+        
+</section>
+<section>
+      <!--========Capture data======-->
+      <div >
+        <div class="blog-capture-data-box">
+         
+          <div class="input-fields"><label for="title">Title</label><input type="text" id="title" [(ngModel)]="newEntry.title"></div>
+           <div class="input-fields"><label for="imageUrl">Image URL </label><input type="text" id="imageUrl" [(ngModel)]="newEntry.imageUrl"></div>
+           <div class="input-fields"><label for="text">Text</label><textarea id="text" [(ngModel)]="newEntry.text"></textarea></div>
+           <div class="input-fields"><label></label> <button class="blog-capture-data-box-button" (click)="publishEntry()">Publish</button></div>
+           <div class="show-error">{{newEntry.errorMessages}}</div>
+          
+        
+        </div>
+      </div> 
+       
+</section>
